@@ -1,3 +1,0 @@
-shmarea.lo: shmarea.c ../include/config.h
-
-../include/config.h:
