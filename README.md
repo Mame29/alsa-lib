@@ -31,9 +31,10 @@ dependets:
   2. make
   3. automake
   4. autoconf
-  5. libllvm
+  5. llvm
   6. build-essential
   7. python2
+  8. binutils
 
 
 ### useg:
