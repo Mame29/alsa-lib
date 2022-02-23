@@ -35,6 +35,7 @@ dependets:
   6. build-essential
   7. python2
   8. binutils
+  9. pulseaudio
 
 
 ### useg:
