@@ -138,6 +138,7 @@ if oprasi == 'Android':
 
     if os.path.exists('configure'):
       conf('./configure', prefix, target, host, ar)
+      conf('make clean')
       conf('make')
     else:
       conf('touch ltconfig')
@@ -148,6 +149,7 @@ if oprasi == 'Android':
       conf('touch depcomp')
       conf('autoconf')
       conf('./configure', prefix, target, host, ar)
+      conf('make clean')
       conf('make')
 else:
   sys.exit('build in termux only')
